@@ -193,6 +193,7 @@ install_XrayR() {
     echo "  XrayR install            - Cài đặt XrayR"
     echo "  XrayR uninstall          - Gỡ cài đặt XrayR"
     echo "  XrayR version            - Xem các phiên bản XrayR"
+    echo "  AikoTest Ver XrayR 	     - Đã Compelete"	
     echo "  AikoCute Hotme           - Lệnh Này méo có đâu nên đừng sài"
     echo "------------------------------------------"
 }
