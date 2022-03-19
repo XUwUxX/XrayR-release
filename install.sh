@@ -158,7 +158,7 @@ install_XrayR() {
         if [[ $? == 0 ]]; then
             echo -e "${green}XrayR khởi động lại thành công${plain}"
         else
-            echo -e "${red}XrayR Có thể không khởi động được, vui lòng sử dụng sau XrayR log Kiểm tra thông tin nhật ký, nếu không khởi động được, định dạng cấu hình có thể đã bị thay đổi, vui lòng vào wiki để kiểm tra：https://github.com/herotbty/Aiko-XrayR/wiki${plain}"
+            echo -e "${red}XrayR Có thể không khởi động được (Lỗi ), vui lòng sử dụng sau XrayR log Kiểm tra thông tin nhật ký, nếu không khởi động được, định dạng cấu hình có thể đã bị thay đổi, vui lòng vào wiki để kiểm tra：https://github.com/herotbty/Aiko-XrayR/wiki${plain}"
         fi
     fi
 
@@ -197,7 +197,7 @@ install_XrayR() {
     echo "------------------------------------------"
 }
 
-echo -e "${green}bắt đầu cài đặt${plain}"
+echo -e "${green}Bắt đầu cài đặt${plain}"
 install_base
 install_acme
 install_XrayR $1
